@@ -1,10 +1,10 @@
 
 # CalendarHW
-[![GitHub license](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)](https://github.com/thomps9012/calendarhw)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/thomps9012/calendarhw)
 
 ## Description
 
-a calendar to help others schedule their days
+Creates a calendar and scheduling app for users to efficiently schedule out their days.
 
 ## Table of Contents 
 
@@ -30,15 +30,15 @@ npm i
 
 ## Usage
 
-nothing special
+Nope
 
 ## License
 
-This project is licensed under the APACHE 2.0 license.
+This project is licensed under the MIT license.
   
 ## Contributing
 
-to make sure they're updating the code with current notes
+Make sure to include comments so that others can effectively track changes.
 
 ## Tests
 
