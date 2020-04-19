@@ -9,7 +9,7 @@ const api = {
           }&client_secret=${process.env.CLIENT_SECRET}`
       )
       .catch(err => {
-        console.log('User Not Found')
+        console.log(`User Not Found`)
         process.exit(1);
       });
   }

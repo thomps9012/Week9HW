@@ -1,80 +1,81 @@
-function generateProjectUrl(github, title) {
-  const kebabCaseTitle = title.toLowerCase().split(" ").join("-");
-  return `https://github.com/${github}/${kebabCaseTitle}`;
-}
-function renderLicenseBadge(license, github, title) {
-  if (license !== "None") {
-    return `[![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)](${generateProjectUrl(github, title)})`
-  }
-  return ''
-}
-function renderLicenseSection(license) {
-  if (license !== "None") {
-    return (
-      `## License
-This project is licensed under the ${license} license.`
-    )
-  }
-  return ''
-}
+// function generateProjectUrl(github, title) {
+//   const kebabCaseTitle = title.toLowerCase().split(" ").join("-");
+//   return `https://github.com/${github}/${kebabCaseTitle}`;
+// }
+// function renderLicenseBadge(license, github, title) {
+//   if (license !== "None") {
+//     return `[![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)](${generateProjectUrl(github, title)})`
+//   }
+//   return ''
+// }
+// function renderLicenseSection(license) {
+//   if (license !== "None") {
+//     return (
+//       `## License
+// This project is licensed under the ${license} license.`
+//     )
+//   }
+//   return ''
+// }
 
-//All development happens in generateMarkdown
-function generateMarkdown(data) {
-  return `
-# ${data.title}
-${renderLicenseBadge(data.license, data.github, data.title)}
+// //All development happens in generateMarkdown
+// function generateMarkdown(data) {
+//   return `
+// # ${data.title}
+// ${renderLicenseBadge(data.license, data.github, data.title)}
 
-## Description
+// ## Description
 
-${data.description}
+// ${data.description}
 
-## Table of Contents
+// ## Table of Contents
 
-* [Installation](#installation)
+// * [Installation](#installation)
 
-*[Usage](#usage)
+// *[Usage](#usage)
 
-*[License](#license)
+// *[License](#license)
 
-*[Contributing](#contributing)
+// *[Contributing](#contributing)
 
-*[Tests](#tests)
+// *[Tests](#tests)
 
-*[Questions](#questions)
+// *[Questions](#questions)
 
-## Installation
+// ## Installation
 
-To install necessary dependencies, run the following command:
+// To install necessary dependencies, run the following command:
 
-\`\`\`
-${data.installation}
-\`\`\`
+// \`\`\`
+// ${data.installation}
+// \`\`\`
 
-## Usage
+// ## Usage
 
-${data.usage}
+// ${data.usage}
 
-${renderLicenseSection(data.license)}
+// ${renderLicenseSection(data.license)}
 
-## Contributing
+// ## Contributing
 
-${data.contributing}
+// ${data.contributing}
 
-## Tests
+// ## Tests
 
-To run tests, run the following command:
+// To run tests, run the following command:
 
-\`\`\`
-${data.test}
-\`\`\`
+// \`\`\`
+// ${data.test}
+// \`\`\`
 
-## Questions
+// ## Questions
 
-<img src='${data.avatar_url}' alt='avatar' style='border-radius: 19px' width='30' />
+// <img src="${data.avatar_url}" alt='avatar' style='border-radius: 19px' width='30' />
 
-If you have any further questions about the code repo, open an issue or contact
-[${data.github}](${data.url}) directly at ${data.email}.
+// If you have any further questions about the code repo, open an issue or contact
+// [${data.github}](${data.url}) directly at ${data.email}.
 
-`;
-}
-module.exports = generateMarkdown;
+// `;
+// }
+// module.exports = generateMarkdown;
+
