@@ -4,7 +4,7 @@
 
 ## Description
 
-Creates a calendar and scheduling app for users to efficiently schedule out their days.
+A scheduling app that allows others to efficiently manage their time.
 
 ## Table of Contents 
 
@@ -30,7 +30,7 @@ npm i
 
 ## Usage
 
-Nope
+To include comments so that others can know where the code was last left off.
 
 ## License
 
@@ -38,7 +38,7 @@ This project is licensed under the MIT license.
   
 ## Contributing
 
-Make sure to include comments so that others can effectively track changes.
+see above
 
 ## Tests
 
