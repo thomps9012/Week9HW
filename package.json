@@ -6,10 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thomps9012/Week9HW.git"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -21,3 +17,4 @@
     "open": "^6.3.0"
   }
 }
+
