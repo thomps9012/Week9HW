@@ -13,12 +13,12 @@ const questions = [
   {
     type: "input",
     name: "title",
-    message: "What is your project's name?"
+    message: "What is the name of your project?"
   },
   {
     type: "input",
     name: "description",
-    message: "Please write a short description of your project"
+    message: "Please describe your project"
   },
   {
     type: "list",
@@ -29,24 +29,24 @@ const questions = [
   {
     type: "input",
     name: "installation",
-    message: "What command should be run to install dependencies?",
+    message: "What command should we run to install dependencies?",
     default: "npm i"
   },
   {
     type: "input",
     name: "test",
-    message: "What command should be run to run tests?",
+    message: "What command should we run to run tests?",
     default: "npm test"
   },
   {
     type: "input",
     name: "usage",
-    message: "What does the user need to know about using the repo?",
+    message: "Is there anything that the user needs to know about running your repo?",
   },
   {
     type: "input",
     name: "contributing",
-    message: "What does the user need to know about contributing to the repo?",
+    message: "Anything that the user should know about contributing to the repo?",
   }
 ];
 
@@ -56,7 +56,7 @@ function writeToFile(fileName, data) {
 
 function init() {
   inquirer.prompt(questions).then((inquirerResponses) => {
-    console.log("Searching...");
+    console.log("We're updating the README file with your username and repo information!");
 
     api
       .getUser(inquirerResponses.github)

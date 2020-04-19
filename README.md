@@ -1,6 +1,6 @@
 
 # CalendarHW
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/thomps9012/calendarhw)
+[![GitHub license](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)](https://github.com/thomps9012/calendarhw)
 
 ## Description
 
@@ -30,15 +30,15 @@ npm i
 
 ## Usage
 
-nothing
+nothing special
 
 ## License
 
-This project is licensed under the MIT license.
+This project is licensed under the APACHE 2.0 license.
   
 ## Contributing
 
-to make sure they're updating current notes
+to make sure they're updating the code with current notes
 
 ## Tests
 
@@ -52,5 +52,5 @@ npm test
 
 <img src="https://avatars0.githubusercontent.com/u/60509970?v=4" alt="avatar" style="border-radius: 16px" width="30" />
 
-If you have any questions about the repo, open an issue or contact [thomps9012](https://api.github.com/users/thomps9012) directly at null.
+If you have any questions about the repo, you can contact [thomps9012](https://api.github.com/users/thomps9012) directly at null.
 
