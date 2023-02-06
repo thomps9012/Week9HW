@@ -1,10 +1,10 @@
 
-# CalendarHW
+# ReadME Generator Package
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/thomps9012/calendarhw)
 
 ## Description
 
-A scheduling app that allows others to efficiently manage their time.
+A node.js package that allows for easy creation of README files.
 
 ## Table of Contents 
 
